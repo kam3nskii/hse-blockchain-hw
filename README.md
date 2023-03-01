@@ -1,13 +1,25 @@
-# Sample Hardhat Project
+### HW 4 ответы
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+# 1
 
-Try running some of the following tasks:
+Расширения для обозревателя, которые умеют взаимодействовать с Ethereum:
+* MetaMask
+* Mist
+* Trust Wallet
+* Cipher Browser.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+# 2
+
+MetaMask использует Ethereum JSON-RPC API.
+
+# 3
+
+Библиотеки типа web3.py, Web3.js и ethers.js принимают от внешнего пользователя запросы и преобразует в понимаемый блокчейном вид.
+
+# 4
+
+Наверное, ещё остались сети с поддержкой HTTP запросов, но там наверное могут быть проблемы с идемпотентностью и безопасностью
+
+# 5
+
+Подписки, чтобы отслеживать актульные события, а не прошлые.
